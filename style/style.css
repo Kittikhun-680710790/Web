@@ -1,4 +1,6 @@
 body{
-   background: linear-gradient(to top, rgb(146, 228, 146),rgb(57, 224, 57));
+    height:100vh;
+    margin:0;
+   background: linear-gradient(to top, #99f2c8,#1f4037);
    color: white;
 }
