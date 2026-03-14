@@ -9,7 +9,9 @@ body{
     text-align:center;
 }
 
-.h11{
+h3{
+    color:black;
+    font-family: 32;
     font-weight: 500;
     background-clip: text;
     background-image: url(https://www.visit-gunma.jp/th/spots/akagi-nature-park/);
