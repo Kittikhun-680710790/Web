@@ -13,7 +13,7 @@ html{
 .heade{
     margin:0;
     background:black;
-    padding: 18px;
+    padding: 10px;
 }
 nav{
     text-align:center
@@ -23,7 +23,7 @@ nav a{
     text-decoration:none;
     margin:0 20px;
     font-size:4px;
-    font-weight:500;
+    font-weight:200;
     transition:0.3s;
 }
 nav a:hover{
