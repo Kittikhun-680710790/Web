@@ -1,6 +1,6 @@
 body{
     height:100vh;
-    margin:0;
+    margin-top:60px;
    background: linear-gradient(to top, #99f2c8,#1f4037);
    color:white;
 }
@@ -11,6 +11,9 @@ html{
     text-align:center;
 }
 header{
+    position:fixed;
+    top:0;
+    width:100%;
     margin:0;
     background:black;
     padding: 15px;
