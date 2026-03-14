@@ -10,12 +10,13 @@ html{
 .center{
     text-align:center;
 }
-head{
+header{
     margin:0;
     background:black;
     padding: 15px;
 }
 nav{
+    display:flex;
     text-align:center
 }
 nav a{
