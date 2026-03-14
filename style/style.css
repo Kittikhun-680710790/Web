@@ -4,9 +4,30 @@ body{
    background: linear-gradient(to top, #99f2c8,#1f4037);
    color: white;
 }
-
-.center{
+html{
+    scroll-behavior:smooth;
+}
+.center{0%
     text-align:center;
+}
+.heade{
+    margin:0;
+    background:black;
+    padding: 20px;
+}
+nav{
+    text-align:center
+}
+nav a{
+    color:#ffffff;
+    text-decoration:none;
+    margin:0 20px;
+    font-size:18px;
+    font-weight:500;
+    transition:0.3s;
+}
+nav a:hover{
+    color:aqua;
 }
 
 .h11{
