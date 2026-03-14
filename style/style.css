@@ -4,3 +4,7 @@ body{
    background: linear-gradient(to top, #99f2c8,#1f4037);
    color: white;
 }
+
+.center{
+    text-align:center;
+}
