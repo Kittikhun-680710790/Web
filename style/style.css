@@ -15,9 +15,9 @@ header{
     background:black;
     padding: 15px;
     display:flex;
-    align-items:center;
 }
 nav{
+    align-items:center;
     display:flex;
     text-align:center;
     flex:1;
