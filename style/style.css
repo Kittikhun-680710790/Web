@@ -8,16 +8,14 @@ html{
     scroll-behavior:smooth;
 }
 .center{
-      display:flex;
     text-align:center;
-    align-items: center;
-    justify-content: center;
 }
 header{
     margin:0;
     background:black;
     padding: 15px;
     display:flex;
+     align-items: center;
 }
 nav{
     display:flex;
@@ -43,4 +41,7 @@ nav a:hover{
     font-weight: 800;
     transform: skewX(-15deg);
     margin-right:20px;
+}
+h3{
+    margin:0;
 }
