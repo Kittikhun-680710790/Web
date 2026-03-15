@@ -11,17 +11,18 @@ html{
     text-align:center;
 }
 header{
-    margin:0;
-    background:black;
-    padding: 15px;
-    display:flex;
-     align-items: center;
+  margin:0;
+  background:black;
+  padding:15px;
+  display:flex;
+  align-items:center;
 }
+
 nav{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    flex:1;
+  display:flex;
+  justify-content:center;
+  gap:30px;
+  margin:auto;
 }
 nav a{
     color:#ffffff;
