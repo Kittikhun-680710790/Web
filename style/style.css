@@ -37,7 +37,7 @@ nav a:hover{
 }
 
 .logo{
-    color:black;
+    color:rgb(255, 255, 255);
     font-size: 15px;
     font-weight: 800;
     transform: skewX(-15deg);
@@ -54,30 +54,5 @@ h3{
   padding: 20px 0;
 }
 .card{
-  width:200px;
-  height: 300px;
-  background-color:#2563eb;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-  color:#ffffff;
-  font-weight:bold;
-  font-size :24px;
-  border-radius:20px;
-  margin: 0 1rem;
-}
-
-.carousel-track{
-  display:flex;
-  width:max-content;
-  animation: scroll 10s linear infinite;
-}
-
-@keyframes scroll{
-  0%{
-    transform: translateX(0);
-  }
-  100%{
-    transform: translateX(-50%);
-  }
+ 
 }
