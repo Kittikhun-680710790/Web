@@ -17,9 +17,9 @@ header{
     display:flex;
 }
 nav{
-    align-items:center;
     display:flex;
     text-align:center;
+    justify-self: center;
     flex:1;
 }
 nav a{
