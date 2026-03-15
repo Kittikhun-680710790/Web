@@ -21,15 +21,11 @@ header{
 
 nav{
   display:flex;
-  justify-content:center;
-  gap:30px;
+  justify-content:space-between;
+  width:300px;
   margin:auto;
-  nav{
-  position:absolute;
-  left:50%;
-  transform:translateX(-50%);
 }
-}
+
 nav a{
     color:#ffffff;
     text-decoration:none;
