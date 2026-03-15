@@ -1,7 +1,5 @@
 body{
-    height:100vh;
-    margin:0;
-   background: linear-gradient(to top, #99f2c8,#1f4037);
+   background: linear-gradient(to top, #4facfe, #00f2fe);
    color:white;
 }
 html{
@@ -45,4 +43,39 @@ nav a:hover{
 }
 h3{
     margin:0;
+}
+ 
+.carousel-container{
+  width:100%;
+  overflow:hidden;
+  background-color:rgb(187,143,288);
+  padding: 20px 0;
+}
+.card{
+  width:200px;
+  height: 300px;
+  background-color:blueviolet;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:#ffffff;
+  font-weight:bold;
+  font-size :24px;
+  border-radius:20px;
+  margin: 0 1rem;
+}
+
+.carousel-track{
+  display:flex;
+  width:max-content;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll{
+  0%{
+    transform: translateX(0);
+  }
+  100%{
+    transform: translateX(-50%);
+  }
 }
