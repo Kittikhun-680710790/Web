@@ -9,6 +9,7 @@ html{
 }
 .center{
     text-align:center;
+    justify-content: center;
 }
 header{
     margin:0;
