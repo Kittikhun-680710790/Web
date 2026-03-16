@@ -46,18 +46,7 @@ nav a:hover{
 h3{
     margin:0;
 }
- 
-.content{
-  width: 80%;
-  margin: auto;
-}
 
-.row{
-  display: flex;
-  align-items: center;
-  gap: 40px;
-  margin: 60px 0;
-}
 
 .fish-card{
   display:flex;
@@ -90,4 +79,13 @@ h3{
 }
 .fish-card:nth-child(even){
   flex-direction: row-reverse;
+}
+.menu2 a{
+  color:white;
+  text-decoration: none;
+  display: block;
+  padding: 8px 0;
+}
+.menu2 a:hover{
+  color:#66ccff;
 }
