@@ -12,33 +12,6 @@ html{
 }
 
 
-.navbar{
-    background-color: #40826D;
-}
-.navbar-brand{
-    color: #ffffff;
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: bold;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-.nav-link{
-    font-family: "Kanit", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-    font-size: 16px;
-    line-height: 1.8;
-}
-
-.logo{
-    color:rgb(255, 255, 255);
-    font-size: 15px;
-    font-weight: 800;
-    transform: skewX(-15deg);
-    margin-right:20px;
-}
 h3{
     margin:0;
 }
@@ -76,15 +49,7 @@ h3{
 .fish-card:nth-child(even){
   flex-direction: row-reverse;
 }
-.menu2 a{
-  color:white;
-  text-decoration: none;
-  display: block;
-  padding: 8px 0;
-}
-.menu2 a:hover{
-  color:#66ccff;
-}
+
 footer{
     background-color: #40826D;
     color: white;
@@ -93,4 +58,24 @@ footer{
     font-family: "Kanit", sans-serif;
     font-weight: 500;
     font-style: bold;
+}
+
+.navbar{
+    background-color: #40826D;
+}
+.navbar-brand{
+    color: #ffffff;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.nav-link{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.8;
 }
