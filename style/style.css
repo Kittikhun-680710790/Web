@@ -11,12 +11,6 @@ html{
     text-align:center;
 }
 header{
-  margin:0;
-  background:#0f172a;
-  padding:15px;
-  display:flex;
-  align-items:center;
-  position:relative;
 }
 
 nav{
@@ -27,13 +21,24 @@ nav{
   gap:30px;
 }
 
-nav a{
-  color:#e2e8f0;
-  text-decoration:none;
-  font-size:18px;
+.navbar{
+    background-color: #40826D;
 }
-nav a:hover{
-    color:#38bdf8;
+.navbar-brand{
+    color: #ffffff;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+.nav-link{
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.8;
 }
 
 .logo{
@@ -88,4 +93,13 @@ h3{
 }
 .menu2 a:hover{
   color:#66ccff;
+}
+footer{
+    background-color: #40826D;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: bold;
 }
