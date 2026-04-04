@@ -94,3 +94,28 @@ footer{
   padding: 80px 20px;
   background: linear-gradient(135deg, #0a2e33, #134e5e, #1f6f78);
 }
+
+#main p {
+  font-size: 22px;         
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 10px;
+  text-shadow: 
+    0 0 8px rgba(0,255,200,0.5),
+    0 2px 6px rgba(0,0,0,0.5);
+}
+
+#main p::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #00ffd5;
+  margin: 8px auto 0;
+  border-radius: 10px;
+}
+
+#main p span {
+  color: #00ffd5;
+  font-weight: 700;
+}
