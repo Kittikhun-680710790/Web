@@ -120,15 +120,13 @@ footer{
   font-weight: 700;
 }
 
-@media (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
+
+.fish-item {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 100%;
 }
 
-@media (max-width: 768px) {
-  .fish-card {
-    width: 100% !important;
-    margin: 10px 0;
-  }
+.fish-image, .fish-text {
+    flex: 1 1 300px; 
 }
