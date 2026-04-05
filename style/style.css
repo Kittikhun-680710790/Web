@@ -119,3 +119,16 @@ footer{
   color: #00ffd5;
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .fish-card {
+    width: 100% !important;
+    margin: 10px 0;
+  }
+}
